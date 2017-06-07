@@ -1,0 +1,12 @@
+body{
+	padding-top: 70px;
+}
+
+.main-section{
+	background-color: red;
+	min-height: 450px;
+}
+
+.sidebar{
+	background-color: green;
+}
