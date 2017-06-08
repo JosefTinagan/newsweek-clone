@@ -1,12 +1,69 @@
 body{
-	padding-top: 70px;
+	padding-top: 50px;
 }
 
 .main-section{
 	background-color: red;
-	min-height: 450px;
+	min-height: 1030px;
+}
+
+.main-image{
+	background-color: blue;
+	min-height: 530px;
+}
+
+.main-headline{
+	background-color: yellow;
+	min-height: 200px;
+	padding-right: 10px;
+}
+
+.side-advertisement{
+	background-color: blue;
 }
 
 .sidebar{
 	background-color: green;
+	min-height: 530px;
+}
+
+
+.second-headline{
+	background-color: pink;
+	min-height: 560px;
+}
+
+.other-articles{
+	background-color: green;
+	min-height: 800px;
+}
+
+.advertisement-block{
+	background-color: blue;
+	min-height: 100px;
+}
+
+.in-the-magazine{
+	background-color: green;
+	min-height: 480px;
+}
+
+.big-shots{
+	background-color: blue;
+	min-height: 560px;
+}
+
+.subscription-block{
+	background-color: yellow;
+	min-height: 700px;
+}
+
+.most-read-block{
+	background-color: pink;
+	min-height: 700px;
+}
+
+footer{
+	background-color: orange;
+	min-height: 600px;
 }
