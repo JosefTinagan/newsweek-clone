@@ -2,6 +2,24 @@ body{
 	padding-top: 50px;
 }
 
+
+.navbar-icon-container{
+	background-color: red;
+	height: 50px;
+	width: 50px;
+}
+
+.navbar-list-container{
+	background-color: yellow;
+	height: 50px;
+}
+
+.navbar-right-section-container{
+	background-color: blue;
+	height: 50px;
+	width: 370px;
+}
+
 .main-section{
 	background-color: red;
 	min-height: 1030px;
@@ -21,6 +39,7 @@ body{
 	background-color: yellow;
 	min-height: 200px;
 	padding-right: 10px;
+	text-align: center;
 }
 
 .side-advertisement{
@@ -71,4 +90,10 @@ body{
 footer{
 	background-color: orange;
 	min-height: 600px;
+}
+
+/* MISC */
+
+.clear{
+	clear: both;
 }
