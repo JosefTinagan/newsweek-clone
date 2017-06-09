@@ -1,23 +1,36 @@
 body{
-	padding-top: 50px;
+	padding-top: 60px;
 }
 
+.navbar{
+	height: 60px;
+}
 
 .navbar-icon-container{
 	background-color: red;
-	height: 50px;
-	width: 50px;
+	height: 60px;
+	width: 60px;
+	background: url("../pics/sprite-logo.svg") -272px 13px/442px no-repeat #FF0500;
 }
 
 .navbar-list-container{
 	background-color: yellow;
-	height: 50px;
+	height: 60px;
 }
 
 .navbar-right-section-container{
 	background-color: blue;
-	height: 50px;
-	width: 370px;
+	height: 60px;
+	width: 360px;
+}
+
+.row .right-section > div{
+	height: 60px;
+	border-left: 1px solid white;
+}
+
+.list-inline li{
+	text-transform: uppercase;
 }
 
 .main-section{
