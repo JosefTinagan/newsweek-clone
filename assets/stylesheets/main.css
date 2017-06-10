@@ -111,13 +111,14 @@ body{
 
 .main-image{
 	background-color: white;
-	min-height: 530px;
+
 }
 
 .main-image img{
 	margin-top: 1px;
 	margin-left: -15px;
-	max-width: 945px;
+	width: 100%;
+	height: auto;
 }
 
 .sidebar-content-container{
@@ -167,6 +168,25 @@ body{
 	background-color: red;
 	width: 8px;
 	height: 8px;
+}
+
+.see-all-headlines-button{
+	background-color: grey;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+.see-all-headlines-button:hover{
+	cursor: pointer;
+}
+
+.see-all-headlines-text{
+	display: block;
+	position: relative;
+	top: 15px;
+	font-size: 13px;
+	color: white;
 }
 
 .main-headline{
