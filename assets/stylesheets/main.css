@@ -28,6 +28,15 @@ body{
 	letter-spacing: 2px;
 }
 
+.list-inline li a{
+	color: white;
+}
+
+.list-inline li a:hover{
+	text-decoration: none;
+	color: grey;
+}
+
 .navbar-right-section-container{
 	height: 60px;
 	width: 360px;
@@ -95,18 +104,69 @@ body{
 	font-weight: bold;
 }
 .main-section{
-	background-color: red;
 	min-height: 1030px;
 }
 
+/* Headline */
+
 .main-image{
-	background-color: blue;
+	background-color: white;
 	min-height: 530px;
 }
 
-.test{
-	background-color: red;
+.main-image img{
+	margin-top: 1px;
+	margin-left: -15px;
+	max-width: 945px;
+}
+
+.sidebar-content-container{
 	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.sidebar-content-container p{
+	font: 21px/22px Georgia, "Times New Roman",Times,serif;
+	text-transform: uppercase;
+	color: red;
+}
+
+.latest-headlines-list{
+
+}
+
+.latest-headlines-list-item{
+	border-bottom: 1px solid grey;	
+	margin-left: 10px;
+	display: block;
+	width: 270px;
+	margin-left: -5px;
+}
+
+.latest-headlines-list-item:last-of-type{
+	border-bottom: none;
+}
+
+.latest-headlines-list-item a{
+	font-weight: bold;
+	padding-left: 10px;
+	height: 50px;
+	width: 250px;
+	display: block;
+	margin-top: 10px;
+	margin-left: 15px;
+	color: black;
+}
+
+.latest-headlines-list-item:before{
+	content: "";
+	display: block;
+	position: relative;
+	left: 5px;
+	top: 22px;
+	background-color: red;
+	width: 8px;
+	height: 8px;
 }
 
 .main-headline{
@@ -121,7 +181,6 @@ body{
 }
 
 .sidebar{
-	background-color: green;
 	min-height: 530px;
 }
 
