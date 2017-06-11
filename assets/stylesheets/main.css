@@ -107,19 +107,133 @@ body{
 	min-height: 1030px;
 }
 
+.main-section-container{
+	border-bottom: 1px solid grey;
+}
+
 /* Headline */
 
-.main-image{
+.left-section-container{
 	background-color: white;
 
 }
 
-.main-image img{
+.left-section-container img{
 	margin-top: 1px;
 	margin-left: -15px;
-	width: 100%;
+	width: 103%;
 	height: auto;
+
+	border-bottom: 5px solid red;
 }
+
+.headline-info-container{
+	margin-left: 10px;
+	border-bottom: 1px solid grey;
+}
+
+.main-headline-info-container{
+	margin-top: 10px;
+
+}
+
+.tag{
+	font: 800 20px/15px arial, sans-serif;
+	color: red;
+
+}
+
+.headline-title{
+	font: 900 40px/40px "Times New Roman";
+	text-transform: uppercase;
+}
+
+.headline-description{
+	font: 20px/25px arial;
+	color: grey;
+}
+
+.main-headline-list li{
+	text-align: center;
+}
+
+.related-article a{
+	color: black;
+}
+
+.related-article a:before{
+	content: "";
+	width: 8px;
+	height: 8px;
+	background-color: blue;
+	display: inline-block;
+	position: static;
+	margin-right: 10px;
+
+}
+
+/* Secondary Articles */
+
+.secondary-articles img{
+	border-bottom: none;
+}
+
+.secondary-articles{
+	margin-top: 15px;
+}
+
+.secondary-articles .left-section{
+	border-right: 1px solid grey;
+	margin-top: 15px;
+}
+.secondary-articles img{
+	margin-left: -5px;
+}
+
+
+.secondary-articles-list{
+	margin-top: 15px;
+	margin-bottom: 70px;
+}
+.secondary-articles-list li{
+	text-align: center;
+}
+
+.secondary-articles-list .tag{
+	font-size: 16px;
+}
+
+.secondary-articles-list .tag:hover{
+	color: red;
+}
+
+.secondary-articles .right-section .tag{
+	color: blue;
+}
+
+.secondary-articles-list .title{
+	font: bolder 26px/28px "Source Sans Pro", Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.secondary-articles-list p{
+	margin-top: 10px;
+	color: #666;
+}
+
+.secondary-articles-list .related-article{
+	color: black;
+}
+
+.secondary-articles-list .related-article:before{
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background-color: blue;
+	margin-right: 10px;
+}
+/* Sidebar */
 
 .sidebar-content-container{
 	margin-left: 15px;
@@ -130,6 +244,7 @@ body{
 	font: 21px/22px Georgia, "Times New Roman",Times,serif;
 	text-transform: uppercase;
 	color: red;
+	margin-left: -15px;
 }
 
 .latest-headlines-list{
@@ -141,7 +256,7 @@ body{
 	margin-left: 10px;
 	display: block;
 	width: 270px;
-	margin-left: -5px;
+	margin-left: -20px;
 }
 
 .latest-headlines-list-item:last-of-type{
@@ -188,6 +303,18 @@ body{
 	font-size: 13px;
 	color: white;
 }
+
+
+
+
+
+
+
+
+
+/* I.P */
+
+
 
 .main-headline{
 	background-color: yellow;
