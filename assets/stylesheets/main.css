@@ -191,41 +191,42 @@ body{
 }
 
 
-.secondary-articles-list{
+.articles-list{
 	margin-top: 15px;
 	margin-bottom: 70px;
 }
-.secondary-articles-list li{
+.articles-list li{
 	text-align: center;
 }
 
-.secondary-articles-list .tag{
+.articles-list .tag{
 	font-size: 16px;
+	text-transform: uppercase;
 }
 
-.secondary-articles-list .tag:hover{
+.articles-list .tag:hover{
 	color: red;
 }
 
-.secondary-articles .right-section .tag{
+.blue{
 	color: blue;
 }
 
-.secondary-articles-list .title{
+.articles-list .title{
 	font: bolder 26px/28px "Source Sans Pro", Arial, Helvetica, sans-serif;
 	color: black;
 }
 
-.secondary-articles-list p{
+.articles-list p{
 	margin-top: 10px;
 	color: #666;
 }
 
-.secondary-articles-list .related-article{
+.articles-list .related-article{
 	color: black;
 }
 
-.secondary-articles-list .related-article:before{
+.articles-list .related-article:before{
 	content: "";
 	display: inline-block;
 	width: 8px;
@@ -305,42 +306,64 @@ body{
 }
 
 
+/* Other Articles Section */
+
+.other-articles img{
+	width: 100%;
+	height: auto;
+
+	margin-top: 15px;
+}
+
+.other-articles .article-border-right{
+	border-right: 1px solid black;
+}
+
+.articles-list div, .articles-list h3{
+	text-align: center;
+}
+
+.articles-list h3{
+	margin-top: -3px;
+}
+
+.sponsored{
+	border: 1px solid blue;
+	margin-bottom: 5px;
+}
 
 
 
+/* Code for row equal heights */
+/*
+.row-eq-height{
+  overflow: hidden;
+}
 
+.row-eq-height > [class*='col-'] {
+	margin-bottom: -99999px;
+	padding-bottom: 99999px;
+}
+*/
 
+	/* flexbox solution */
+
+	.row-eq-height {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	  flex-wrap: wrap;
+	  border-bottom: 1px solid black;
+	}
+	.row-eq-height > [class*='col-'] {
+	  display: flex;
+	  flex-direction: column;
+	}
 
 
 /* I.P */
 
-
-
-.main-headline{
-	background-color: yellow;
-	min-height: 200px;
-	padding-right: 10px;
-	text-align: center;
-}
-
-.side-advertisement{
-	background-color: blue;
-}
-
-.sidebar{
-	min-height: 530px;
-}
-
-
-.second-headline{
-	background-color: pink;
-	min-height: 560px;
-}
-
-.other-articles{
-	background-color: green;
-	min-height: 800px;
-}
 
 .advertisement-block{
 	background-color: blue;
