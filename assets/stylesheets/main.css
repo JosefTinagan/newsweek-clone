@@ -398,6 +398,54 @@ body{
 	margin-top: 15px;
 }
 
+/* Big shot section */
+
+.big-shots{
+	background-color: #444;
+	min-height: 560px;
+}
+
+.big-shot-portrait{
+	width: 300px;
+	height: 280px;
+	background-color: green;
+
+	margin-top: 20px;
+}
+
+.information{
+	margin-left: 100px;
+}
+
+.information p{
+	color: white;
+}
+
+.information .title{
+	color: blue;
+}
+
+.big-shots .bullet:before{
+	content: "";
+	width: 8px;
+	height: 8px;
+
+	display: inline-block;
+	background-color: blue;
+	position: relative;
+
+	margin-right: 10px;
+}
+
+.big-picture{
+	
+	padding: 20px 20px;
+}
+.big-picture img{
+	width: 100%;
+	height: auto;
+}
+
 /* Code for row equal heights */
 /*
 .row-eq-height{
@@ -428,10 +476,6 @@ body{
 
 /* I.P */
 
-.big-shots{
-	background-color: blue;
-	min-height: 560px;
-}
 
 .subscription-block{
 	background-color: yellow;
