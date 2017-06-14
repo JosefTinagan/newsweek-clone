@@ -425,6 +425,23 @@ body{
 	color: blue;
 }
 
+.launch-slideshow-button{
+	width: 200px;
+	height: 50px;
+
+	background-color: blue;
+
+	margin-bottom:10px;
+}
+
+.launch-slideshow-button p{
+	text-align: center;
+	position: relative;
+	top: 15px;
+
+	font-weight: bolder;
+}
+
 .big-shots .bullet:before{
 	content: "";
 	width: 8px;
@@ -445,6 +462,92 @@ body{
 	width: 100%;
 	height: auto;
 }
+
+/* This week section */
+
+.subscription-block{
+	background-color: #fff;
+	min-height: 700px;
+}
+
+.btn-label{
+	position: relative;
+	width: 142px;
+	height: 10px;
+	margin: 10px auto;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 10px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	text-align: center;
+
+	margin-top: 30px;
+}
+
+.btn-label label{
+	display: block;
+	
+	
+}
+
+.btn-label label:before{
+
+	box-sizing: border-box;
+	content: "";
+	display: block;
+	left: 0;
+	right: 0;
+	position: absolute;
+
+	
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom-color: #FF0500;
+	top: -10px;
+	
+}
+
+.btn-label label:after{
+	box-sizing: border-box;
+	content: "";
+	display: block;
+	left: 0;
+	right: 0;
+	position: absolute;
+
+	border-top: 10px solid transparent;
+	border-top-color: #FF0500;
+	border-right: 10px solid transparent;
+	bottom: -10px;
+
+}
+
+.btn-label.issue label span{
+	background-color: #FF0500;
+	color: #fff;
+
+	font-family: "Source Sans Pro",Arial, Helvetica,sans-serif;
+}
+
+.btn-label label span{
+	display: block;
+}
+
+
+.row time{
+	display: block;
+	font-size: 42px;
+	line-height: 42px;
+
+	font-weight: bold;
+	text-transform: uppercase;
+
+	text-align: center;
+	padding-top: 10px;
+}
+
+
 
 /* Code for row equal heights */
 /*
@@ -477,10 +580,6 @@ body{
 /* I.P */
 
 
-.subscription-block{
-	background-color: yellow;
-	min-height: 700px;
-}
 
 .most-read-block{
 	background-color: pink;
