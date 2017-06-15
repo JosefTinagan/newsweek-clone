@@ -465,9 +465,14 @@ body{
 
 /* This week section */
 
+.magazine{
+	border-bottom: 5px solid red;
+}
+
 .subscription-block{
 	background-color: #fff;
 	min-height: 700px;
+
 }
 
 .btn-label{
@@ -547,7 +552,191 @@ body{
 	padding-top: 10px;
 }
 
+.image img{
+	
+}
 
+.image .subscribe-button{
+	width: 150px;
+	height: 30px;
+
+	margin-left: 15px;
+	margin-top: -25px;
+	background-color: yellow;
+}
+
+.image p{
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.image .subscribe-button p{
+	margin: 0;
+}
+
+.image p span{
+	color: red;
+}
+
+.subscribe-button p{
+	text-align: center;
+	font-weight: bold;
+
+	padding-top: 5px;
+	color: black;
+}
+
+
+.magazine-block{
+	margin-top: 30px;
+}
+
+.magazine-block img{
+	max-width: 450px;
+	padding-left: 15px;
+}
+
+.magazine-block .blockquote{
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+
+.magazine-block .blockquote:before, .magazine-block .blockquote:after{
+	display: block;
+	content: "";
+	position: absolute;
+	left: 0;
+
+	margin-left: 42px;
+}
+
+.magazine-block .blockquote:before{
+
+	top: 0;
+	height: 1px;
+	width: 20px;
+
+	background-color: #111;
+}
+
+.magazine-block .blockquote:after{
+	border-top: 10px solid transparent;
+	border-top-color: #111;
+	border-left: 10px solid transparent;
+
+	width: 315px;
+
+	background-color: #fff
+}
+
+.magazine .quote{
+	display: block;
+
+	margin-bottom: 15px;
+
+	font: bold 29px/29px Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	
+	color: black;
+}
+
+.quote-author{
+
+	color: black;
+	text-transform: uppercase;	
+}
+
+
+.quote-author:before{
+	display: inline-block;
+	content: "";
+	position: relative;
+
+	top: -5px;
+
+	height: 1px;
+	width: 20px;
+
+	background-color: #111;
+}
+
+.inside-this-issue{
+	margin-left: 15px;
+}
+
+.inside-this-issue p{
+	margin-top: 70px;
+	margin-bottom: 20px;
+
+	color: red;
+	font: bold 14px/14px sans-serif;
+}
+
+.list-with-custom-bullets{
+
+}
+
+.list-with-custom-bullets p{
+	margin: 0;
+	border-bottom: 1px solid black;
+
+	font-weight: normal;
+
+	padding-left: 15px;
+
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.list-with-custom-bullets p:last-of-type{
+	border-bottom: none;
+}
+
+.inside-this-issue a{
+}
+
+.inside-this-issue a:before{
+	display: block;
+	content: "";
+	position: absolute;
+	left: 0;
+
+
+	width: 8px;
+	height: 8px;
+	background-color: red;
+
+	margin-top: 3px;
+	margin-left: 30px;
+}
+
+.see-all-features-button{
+	margin-left: 15px;
+	margin-top: 30px;	
+
+	width: 150px;
+	height: 50px;
+
+	background-color: #ccc;
+}
+
+.see-all-features-button p{
+	text-align: center;
+	color: #333;
+
+	font-weight: bold;
+
+	padding-top: 10px;
+}
+
+/* Footer */
+
+footer{
+	background-color: black;
+	min-height: 500px;
+}
 
 /* Code for row equal heights */
 /*
@@ -584,11 +773,6 @@ body{
 .most-read-block{
 	background-color: pink;
 	min-height: 700px;
-}
-
-footer{
-	background-color: orange;
-	min-height: 600px;
 }
 
 /* MISC */
