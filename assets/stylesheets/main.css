@@ -442,7 +442,7 @@ body{
 	font-weight: bolder;
 }
 
-.big-shots .bullet:before{
+.big-shots .bullet:before, .issues .bullet:before{
 	content: "";
 	width: 8px;
 	height: 8px;
@@ -735,8 +735,122 @@ body{
 
 footer{
 	background-color: black;
-	min-height: 500px;
+
+	color: #fff;
 }
+
+.footer-left{
+	border-right: 1px solid #777;
+	min-height: 800px;
+}
+
+.icon-container{
+	padding-top: 30px;
+	padding-left: 10px;
+}
+
+.footer-logo{
+	display: block;
+	width: 138px;
+	height: 40px;
+	background: url("../pics/sprite-logo.svg") 12px 12px/220px no-repeat #FF0500;
+}
+
+
+.copyright-text{
+	margin-top: 10px;
+
+	font-size: .9em;
+
+	text-transform: uppercase;
+	color: #aaa;
+}
+
+.footer-list{
+	margin-top: 30px;
+}
+
+.footer-list ul{
+	margin-left: 15px;
+}
+
+.footer-list li{
+	margin-top: 10px;
+}
+
+.footer-list li a{
+	color: white;
+
+	font-size: 15px;
+	font-weight: 500;
+	
+}
+
+
+
+.socials li{
+	display: inline;
+}
+
+.sign-up-button{
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	width: 100%;
+	height: auto;
+
+	padding: 10px;
+
+	background-color: blue;
+}
+
+.sign-up-button{
+	text-align: center;
+}
+
+.recent-issues-container{
+	border-top: 1px solid #777;
+
+	padding-left: 30px;
+}
+
+.issues img{
+	width: 100%;
+	height: auto;
+}
+
+.issues .bullet:before{
+	background-color: red;
+}
+
+.issues a{
+	color: white;
+}
+
+.issues p{
+	margin-top: 15px;
+	font-weight: bolder;
+}
+
+.issues li{
+	margin-top: 10px;
+}
+
+.issues li a{
+	color: #888;
+
+}
+
+
+.browse-archive-button{
+	border: 1px solid #fff;
+	width: 150px;
+
+	padding: 10px;
+
+	text-align: center;
+}
+
 
 /* Code for row equal heights */
 /*
